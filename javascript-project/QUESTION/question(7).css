@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(232, 241, 245);
+}
+.faq{
+    height: 90vh;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    overflow: hidden;
+}
+h1{
+    font-family: "Playwrite IN", serif;
+    color: orange;
+}
+.card1{
+    text-align: left;
+    padding: 1px 25px;
+    max-width: 40%;
+    margin: auto;
+    background-color: white;
+    box-shadow: 1px 0px 5px 0px;
+    border-radius: 5px;
+    font-family: Arial;
+    margin-bottom: 25px;
+}
+.q1{
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+.ans{
+    font-size: 14px;
+    line-height: 20px;
+    color: gray;
+}
+.question{
+    display: flex;
+    align-items: center;
+}
+#icon{
+    border: 2px solid rgb(199, 132, 8);
+    cursor: pointer;
+    color: rgb(199, 132, 8);
+    transition:  all 0.3s linear;
+}
+#icon:hover{
+    transform: rotate(-90deg);
+}
+.minus{
+    display: none;
+}
+.show .plus{
+    display: none;
+}
+.show .minus{
+    display: block;
+}
+.hidden{
+    display: none;
+}
+.show .hidden{
+    display: block;
+}

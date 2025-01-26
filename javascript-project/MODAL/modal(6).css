@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    background-image: url('image/website-baackground.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+.card{
+    background-color: white;
+    padding: 70px 100px;
+    font-size: 30px;
+    font-family: Arial;
+    font-weight: 700;
+}
+.card1{
+    background-color: white;
+    padding: 70px 100px;
+    font-size: 30px;
+    font-family: Arial;
+    font-weight: 700;
+    display: none;
+}
+.card.see{
+    display: none;
+}
+.card1.see{
+    display: block;
+}
+.body.see{
+    background-image: url('image/website-baackground2.jpeg');
+}
+.btn1,.btn2{
+    background-color: rgb(152, 152, 246);
+    color: white;
+    font-size: 13px;
+    letter-spacing: 3px;
+    padding: 7px;
+    border-radius: 5px;
+    border-style: none;
+    cursor: pointer;
+}
+.btn1:hover{
+    border:2px solid rgb(152, 152, 246);
+    color: rgb(152, 152, 246);
+    background-color: white;
+}
+.btn2:hover{
+    border:2px solid rgb(152, 152, 246);
+    color: rgb(152, 152, 246);
+    background-color: white;
+}

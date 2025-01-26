@@ -1,0 +1,15 @@
+const modal1=document.querySelector('.card')
+const modal2=document.querySelector('.card1')
+const button1=document.querySelector('.btn1')
+const button2=document.querySelector('.btn2')
+const body=document.querySelector('.body')
+button1.addEventListener('click',()=>{
+    modal1.classList.add('see')
+    modal2.classList.add('see')
+    body.classList.add('see')
+})
+button2.addEventListener('click',()=>{
+    modal1.classList.remove('see')
+    modal2.classList.remove('see')
+    body.classList.remove('see')
+})
